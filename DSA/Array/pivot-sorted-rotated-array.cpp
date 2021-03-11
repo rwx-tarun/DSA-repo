@@ -6,6 +6,8 @@ int pivot(int a[], int n)
         return a[n - 1];
     if (n == 2)
         return max(a[1], a[0]);
+    if(a[0]>a[1] && a[0] >a[n-1]) 
+        return a[0];
     else
     {
         int l, h;
