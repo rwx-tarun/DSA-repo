@@ -29,5 +29,6 @@ int main()
     root->left->right=new Node(6);
     root->right->left=new Node(7);
     cout<<height(root);
+    return 0;
 
 }
