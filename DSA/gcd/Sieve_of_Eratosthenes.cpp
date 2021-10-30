@@ -25,4 +25,13 @@ int solve(int n)
     return cnt;
     
 }
+
+
+
+int main()
+{
+    int n;
+    cin>>n;
+    cout<<solve(n);
+}
     
