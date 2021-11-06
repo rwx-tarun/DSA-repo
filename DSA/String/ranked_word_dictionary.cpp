@@ -1,3 +1,8 @@
+// Given a string A. Find the rank of the string amongst its permutations sorted lexicographically.
+// Assume that no characters are repeated.
+
+// Note: The answer might not fit in an integer, so return your answer % 1000003
+
 int Solution::findRank(string A) {
     int a[256]={};
     int n = A.length();
